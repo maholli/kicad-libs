@@ -1,0 +1,5 @@
+https://gitlab.com/dren.dk/kicad-util
+
+put kicadutil.jar in directory with demo.kicad_pcb file
+then in powershell (in the demo.kicad_pcb directory):
+D:\Programs\AdoptOpenJDK\jre\bin\java.exe -jar kicadutil.jar pcb -f demo.kicad_pcb panel --inset=-0.2 --hole=0.5 --pitch=1.15

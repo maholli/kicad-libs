@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BMX160
+#/1672677/56350/2.44/14/4/Integrated Circuit
+DEF BMX160 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "BMX160" 1050 200 50 H V L CNN
+F2 "BMX160" 1050 100 50 H I L CNN
+F3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMX160-DS000.pdf" 1050 0 50 H I L CNN
+F4 "IMUs - Inertial Measurement Units 9-axis (9DOF) Absolute Orientation MEMS Sensor" 1050 -100 50 H I L CNN "Description"
+F5 "1" 1050 -200 50 H I L CNN "Height"
+F6 "Bosch" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BMX160" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "262-BMX160" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "RS Part Number"
+F11 "" 1050 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X SDO 1 0 0 200 R 50 50 0 0 B
+X GND_1 2 0 -100 200 R 50 50 0 0 B
+X GND_2 3 0 -200 200 R 50 50 0 0 B
+X INT1 4 0 -300 200 R 50 50 0 0 B
+X VDDIO 5 0 -400 200 R 50 50 0 0 B
+X GNDIO 6 0 -500 200 R 50 50 0 0 B
+X GND_3 7 0 -600 200 R 50 50 0 0 B
+X VDD 8 1200 0 200 L 50 50 0 0 B
+X INT2 9 1200 -100 200 L 50 50 0 0 B
+X DNC_1 10 1200 -200 200 L 50 50 0 0 B
+X DNC_2 11 1200 -300 200 L 50 50 0 0 B
+X CSB 12 1200 -400 200 L 50 50 0 0 B
+X SCX 13 1200 -500 200 L 50 50 0 0 B
+X SDX 14 1200 -600 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1000 100 1000 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

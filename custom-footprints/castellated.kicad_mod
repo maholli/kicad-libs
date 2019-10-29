@@ -1,0 +1,22 @@
+(module castellated (layer F.Cu) (tedit 5D1936E5)
+  (fp_text reference REF** (at 0 3.048) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value castellated (at 0 -3.048) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.75 0.75) (drill 0.5) (layers *.Cu *.Mask))
+  (pad 1 smd custom (at 0.762 0) (size 1.65 1) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_circle (center -0.825 0) (end -0.325 0) (width 0))
+    ))
+  (pad 1 thru_hole circle (at 1.6 0) (size 0.75 0.75) (drill 0.5) (layers *.Cu *.Mask))
+  (pad 1 smd custom (at 0.762 0) (size 1.65 1) (layers *.Mask B.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_circle (center -0.825 0) (end -0.325 0) (width 0))
+    ))
+)

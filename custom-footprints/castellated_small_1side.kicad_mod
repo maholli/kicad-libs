@@ -1,0 +1,14 @@
+(module castellated_small_1side (layer F.Cu) (tedit 5DB3BC41)
+  (fp_text reference J1 (at 0 3.048) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Conn_01x01 (at 0 -3.048) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd custom (at 0.762 0) (size 1.25 1) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_circle (center -0.625 0) (end -0.125 0) (width 0))
+    ))
+)

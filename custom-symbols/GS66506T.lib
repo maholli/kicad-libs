@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# GS66506T
+#
+DEF GS66506T Q 0 40 Y N 1 L N
+F0 "Q" -219 502 50 H V L BNN
+F1 "GS66506T" -228 -465 50 H V L BNN
+F2 "GS66506T_FOOTPRINT" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "Unavailable" 0 0 50 H I L BNN
+F5 "GS66506T" 0 0 50 H I L BNN
+F6 "Top cooled 650V enhancement mode GaN transistor" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "GaN Systems" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 0 -50 0 50 N
+P 2 0 0 16 0 -149 50 -149 N
+P 3 0 0 16 50 -99 50 -198 99 -149 F
+P 2 0 0 16 99 -149 198 -149 N
+P 2 0 0 16 0 99 0 248 N
+P 2 0 0 16 0 248 0 297 N
+P 2 0 0 16 0 248 198 248 N
+P 2 0 0 16 0 -99 0 -149 N
+P 2 0 0 16 0 -149 0 -198 N
+X G G -200 0 200 R 40 40 0 0 B 
+X G G1 -200 0 200 R 40 40 0 0 B 
+X D D 200 451 200 D 40 40 0 0 B 
+X S S 198 -346 200 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

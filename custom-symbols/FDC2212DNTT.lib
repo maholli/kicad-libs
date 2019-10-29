@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model FDC2212DNTT
+#/307109/56350/2.43/13/3/Integrated Circuit
+DEF FDC2212DNTT IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "FDC2212DNTT" 1050 200 50 H V L CNN
+F2 "SON50P400X400X80-13N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/fdc2212.pdf" 1050 0 50 H I L CNN
+F4 "Proximity Sensors EMI-Resistant 28-Bit Capacitance to Digital Converter for Proximity and Level Sensing 12-WSON -40 to 125" 1050 -100 50 H I L CNN "Description"
+F5 "0.8" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "FDC2212DNTT" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-FDC2212DNTT" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-FDC2212DNTT" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "RS Part Number"
+F11 "" 1050 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X SCL 1 0 0 200 R 50 50 0 0 B
+X SDA 2 0 -100 200 R 50 50 0 0 B
+X CLKIN 3 0 -200 200 R 50 50 0 0 B
+X ADDR 4 0 -300 200 R 50 50 0 0 B
+X INTB 5 0 -400 200 R 50 50 0 0 B
+X SD 6 0 -500 200 R 50 50 0 0 B
+X EP 13 600 -1000 200 U 50 50 0 0 B
+X IN1B 12 1200 0 200 L 50 50 0 0 B
+X IN1A 11 1200 -100 200 L 50 50 0 0 B
+X IN0B 10 1200 -200 200 L 50 50 0 0 B
+X IN0A 9 1200 -300 200 L 50 50 0 0 B
+X GND 8 1200 -400 200 L 50 50 0 0 B
+X VDD 7 1200 -500 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

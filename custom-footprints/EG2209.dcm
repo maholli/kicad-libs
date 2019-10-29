@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EG2209
+D DPDT Slide Switches 12VDC @ 0.1 AMP Sub-Miniature
+K
+F https://www.e-switch.com/system/asset/product_line/data_sheet/119/EG.pdf
+$ENDCMP
+#
+#End Doc Library

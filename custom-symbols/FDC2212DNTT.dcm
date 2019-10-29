@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDC2212DNTT
+D Proximity Sensors EMI-Resistant 28-Bit Capacitance to Digital Converter for Proximity and Level Sensing 12-WSON -40 to 125
+K
+F http://www.ti.com/lit/ds/symlink/fdc2212.pdf
+$ENDCMP
+#
+#End Doc Library

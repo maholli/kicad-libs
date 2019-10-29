@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EG2209
+#/840190/56350/2.40/6/4/Switch
+DEF EG2209 S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "EG2209" 650 200 50 H V L CNN
+F2 "DIPS250W50P200L1150H750Q6N" 650 100 50 H I L CNN
+F3 "https://www.e-switch.com/system/asset/product_line/data_sheet/119/EG.pdf" 650 0 50 H I L CNN
+F4 "DPDT Slide Switches 12VDC @ 0.1 AMP Sub-Miniature" 650 -100 50 H I L CNN "Description"
+F5 "7.5" 650 -200 50 H I L CNN "Height"
+F6 "E-Switch" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "EG2209" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "612-EG2209" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-EG2209" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "RS Part Number"
+F11 "" 650 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 0 -100 200 R 50 50 0 0 B
+X 3 3 0 -200 200 R 50 50 0 0 B
+X 4 6 800 0 200 L 50 50 0 0 B
+X 5 5 800 -100 200 L 50 50 0 0 B
+X 6 4 800 -200 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BK-913-TR
+#
+DEF BK-913-TR BT 0 40 Y N 1 L N
+F0 "BT" -200 150 50 H V L BNN
+F1 "BK-913-TR" -200 -220 50 H V L BNN
+F2 "BAT_BK-913-TR" 0 0 50 H I L BNN
+F3 "Cr2032 Battery Retainer w/ Pc Pi" 0 0 50 H I L BNN
+F4 "BK-913-CT-ND" 0 0 50 H I L BNN
+F5 "MSOP-12 MPD" 0 0 50 H I L BNN
+F6 "MPD _Memory" 0 0 50 H I L BNN
+F7 "https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BK-913-TR/BK-913-CT-ND/6200236?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F8 "BK-913-TR" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -25 100 -25 0 N
+P 2 0 0 10 -25 0 -25 -100 N
+P 2 0 0 10 25 -50 25 0 N
+P 2 0 0 10 25 0 25 50 N
+P 2 0 0 6 -100 0 -25 0 N
+P 2 0 0 6 100 0 25 0 N
+X POS 1 -200 0 100 R 40 40 0 0 P 
+X POS 2 -200 0 100 R 40 40 0 0 P 
+X NEG 3 200 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

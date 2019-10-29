@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PGA26E07BA
+#/930070/56350/2.37/9/4/Transistor
+DEF PGA26E07BA Q 0 30 Y Y 1 F N
+F0 "Q" 1550 300 50 H V L CNN
+F1 "PGA26E07BA" 1550 200 50 H V L CNN
+F2 "PGA26E07BA" 1550 100 50 H I L CNN
+F3 "https://industrial.panasonic.com/content/data/SC/ds/ds8/c2/FLY000074_EN.pdf" 1550 0 50 H I L CNN
+F4 "MOSFET MOSFET 600VDC 15A 70mohm X-GaN" 1550 -100 50 H I L CNN "Description"
+F5 "" 1550 -200 50 H I L CNN "Height"
+F6 "Panasonic" 1550 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PGA26E07BA" 1550 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "667-PGA26E07BA" 1550 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-PGA26E07BA" 1550 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1550 -700 50 H I L CNN "RS Part Number"
+F11 "" 1550 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X D_1 1 0 0 200 R 50 50 0 0 B
+X D_2 2 0 -100 200 R 50 50 0 0 B
+X D_3 3 0 -200 200 R 50 50 0 0 B
+X D_4 4 0 -300 200 R 50 50 0 0 B
+X SOURCE_2_1 5 0 -400 200 R 50 50 0 0 B
+X SOURCE_2_2 6 1700 0 200 L 50 50 0 0 B
+X SOURCE_1 7 1700 -100 200 L 50 50 0 0 B
+X GATE 8 1700 -200 200 L 50 50 0 0 B
+X SOURCE_2_3 9 1700 -300 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1500 100 1500 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

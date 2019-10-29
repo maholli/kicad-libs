@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SX1280IMLTRT
+D RF Transceiver Long range 2.4 GHz Wireless Transceiver
+K
+F http://www.semtech.com/images/datasheet/sx1280_81.pdf
+$ENDCMP
+#
+#End Doc Library

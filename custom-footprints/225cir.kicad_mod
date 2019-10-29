@@ -1,0 +1,9 @@
+(module 225cir (layer F.Cu) (tedit 5D2D4086)
+  (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (fp_text value 225cir (at 0.75 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (pad 1 smd circle (at 0 0) (size 5.715 5.715) (layers F.Cu F.Mask))
+)

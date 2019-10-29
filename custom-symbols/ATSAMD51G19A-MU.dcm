@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATSAMD51G19A-MU
+D ARM Microcontrollers - MCU 120MHZ 512KB FLASH 4 8 QFN PKG 85C
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en599585
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PGA26E07BA
+D MOSFET MOSFET 600VDC 15A 70mohm X-GaN
+K
+F https://industrial.panasonic.com/content/data/SC/ds/ds8/c2/FLY000074_EN.pdf
+$ENDCMP
+#
+#End Doc Library

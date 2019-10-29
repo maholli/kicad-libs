@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EXB-24V220JX
+D Resistor Networks & Arrays Resistor Array Chip 0404 2 elements
+K
+F http://www.mouser.com/ds/2/315/AOC0000CE4-947447.pdf
+$ENDCMP
+#
+#End Doc Library
