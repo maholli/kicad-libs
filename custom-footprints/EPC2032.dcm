@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP EPC2032
-D GANFET TRANS 100V 48A BUMPED DIE
-K
-F http://epc-co.com/epc/Portals/0/epc/documents/datasheets/EPC2032_datasheet.pdf
-$ENDCMP
-#
-#End Doc Library

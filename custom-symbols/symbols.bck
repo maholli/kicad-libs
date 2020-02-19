@@ -1,9 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1042
+F http://www.mouser.com/ds/2/215/042-744829.pdf
+$ENDCMP
+#
 $CMP CQY99
 D 950nm IR-LED, 5mm
 K IR LED
 F https://www.prtice.info/IMG/pdf/CQY99.pdf
+$ENDCMP
+#
+$CMP DRV8830DGQR
+F http://www.ti.com/lit/ds/symlink/drv8830.pdf
 $ENDCMP
 #
 $CMP GND
@@ -19,6 +27,18 @@ $CMP LD274
 D 950nm IR-LED, 5mm
 K IR LED
 F http://pdf.datasheetcatalog.com/datasheet/siemens/LD274.pdf
+$ENDCMP
+#
+$CMP MMCX_SMD
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+F  ~
+$ENDCMP
+#
+$CMP RADFET
+D P-MOSFET transistor, gate/source/drain
+K transistor PMOS P-MOS P-MOSFET
+F ~
 $ENDCMP
 #
 $CMP SFH4546
@@ -37,6 +57,20 @@ $CMP SST-10-UV
 D 940nm IR-LED, 5mm
 K IR LED
 F http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf
+$ENDCMP
+#
+$CMP TSL2561
+F https://ams.com/documents/20143/36005/TSL2561_DS000110_3-00.pdf/18a41097-2035-4333-c70e-bfa544c0a98b
+$ENDCMP
+#
+$CMP TTB12G51-Balun
+D 4.9-5.9GHz 1:1 RF Transformer, Unbalanced to Balanced
+K balun rf transformer
+F https://www.johansontechnology.com/datasheets/5400BL15B050/5400BL15B050.pdf
+$ENDCMP
+#
+$CMP XF3M(1)-0615-1B
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-xf3m.pdf
 $ENDCMP
 #
 #End Doc Library

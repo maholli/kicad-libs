@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 146168-0001
+#/757288/56350/2.44/1/4/Antenna
+DEF 146168-0001 ANT 0 30 Y Y 1 F N
+F0 "ANT" 650 300 50 H V L CNN
+F1 "146168-0001" 650 200 50 H V L CNN
+F2 "1461680001" 650 100 50 H I L CNN
+F3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1461680001_ANTENNAS.pdf" 650 0 50 H I L CNN
+F4 "Molex SMT Antenna 146168-0001, 1575+/-3 MHz" 650 -100 50 H I L CNN "Description"
+F5 "4.2" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "146168-0001" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-146168-0001" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-146168-0001" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1348412P" 650 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1348412P" 650 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 U
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

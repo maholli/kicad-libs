@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DRV8830DGQR
+#/46092/56350/2.44/11/3/Integrated Circuit
+DEF DRV8830DGQR IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "DRV8830DGQR" 1250 200 50 H V L CNN
+F2 "SOP50P490X110-11N" 1250 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/drv8830.pdf" 1250 0 50 H I L CNN
+F4 "DRV8830DGQR, Motor Driver, 1A Low Voltage Motor Driver, 2.75 to 6.8V, 10-Pin MSOP PowerPAD" 1250 -100 50 H I L CNN "Description"
+F5 "1.1" 1250 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DRV8830DGQR" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-DRV8830DGQR" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-DRV8830DGQR" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "7300559P" 1250 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/7300559P" 1250 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X OUT2 1 0 0 200 R 50 50 0 0 O
+X ISENSE 2 0 -100 200 R 50 50 0 0 U
+X OUT1 3 0 -200 200 R 50 50 0 0 O
+X VCC 4 0 -300 200 R 50 50 0 0 W
+X GND 5 0 -400 200 R 50 50 0 0 W
+X EP 11 700 -900 200 U 50 50 0 0 U
+X SCL 10 1400 0 200 L 50 50 0 0 U
+X SDA 9 1400 -100 200 L 50 50 0 0 U
+X A1 8 1400 -200 200 L 50 50 0 0 U
+X A0 7 1400 -300 200 L 50 50 0 0 U
+X FAULTN 6 1400 -400 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 1200 100 1200 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
