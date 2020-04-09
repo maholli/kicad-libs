@@ -25,3 +25,5 @@ fp-info-cache
 *.xml
 *.csv
 *.hash
+
+KiCad_Paths.PNG
